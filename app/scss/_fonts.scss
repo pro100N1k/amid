@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?77pr6y');
+    src:  url('../fonts/icomoon.eot?77pr6y#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?77pr6y') format('truetype'),
+      url('../fonts/icomoon.woff?77pr6y') format('woff'),
+      url('../fonts/icomoon.svg?77pr6y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    // speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-up-left:before {
+    content: "\ea31";
+  }
+  .icon-arrow-up:before {
+    content: "\ea32";
+  }
+  .icon-arrow-up-right:before {
+    content: "\ea33";
+  }
+  .icon-arrow-right:before {
+    content: "\ea34";
+  }
+  .icon-arrow-down-right:before {
+    content: "\ea35";
+  }
+  .icon-arrow-down:before {
+    content: "\ea36";
+  }
+  .icon-arrow-down-left:before {
+    content: "\ea37";
+  }
+  .icon-arrow-left:before {
+    content: "\ea38";
+  }
+  
